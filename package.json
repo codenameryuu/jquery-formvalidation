@@ -1,5 +1,5 @@
 {
-  "name": "@codenameryuu/jqeury-formvalidation",
+  "name": "@codenameryuu/jquery-formvalidation",
   "description": "Validation library for using jquery",
   "version": "1.0.0",
   "engines": {
