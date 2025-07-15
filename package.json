@@ -1,0 +1,40 @@
+{
+  "name": "@codenameryuu/formvalidation",
+  "description": "Validation library for using jquery",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "type": "module",
+  "files": [
+    "build/src"
+  ],
+  "exports": {
+    ".": "./build/index.js"
+    
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "jquery": "^3.7.1"
+  },
+  "keywords": [
+    "jquery",
+    "validation"
+  ],
+  "author": "Codename Ryuu",
+  "license": "MIT",
+  "homepage": "https://github.com/codenameryuu/jquery-formvalidation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenameryuu/jquery-formvalidation.git"
+  },
+  "main": "index.ts",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
