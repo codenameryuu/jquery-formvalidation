@@ -1,1 +1,1 @@
-export { formValidation } from "./src/js/FormValidation.full.js";
+export { formValidation } from "./src/bundle/popular";
